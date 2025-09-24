@@ -51,14 +51,14 @@ POSSIBLE_STORY_KEYS = ["STORIES","NUM_STORIES","BldgStories","BLDG_STORY","STORY
 POSSIBLE_BUILD_ID_KEYS  = ["BIN", "STRUCTUREID", "STRUCTURE_ID", "STRUCT_ID","BLD_ID","BUILDINGID","BUILDING_ID","BUILDINGID","BUILDING_ID","BuildingId","building_id","BuildingID"]
 
 # Define paths and parameters
-project_path = "C:/Users/sarni/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/"
+project_path = "C:/Users/xxxx/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/"
 # Input CSV with 'address' column
-csv_input = r"C:/Users/sarni/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/Input_Files/Atlanta_Addresses_Test.csv"    
+csv_input = r"C:/Users/xxxx/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/Input_Files/Atlanta_Addresses_Test.csv"    
 # Dictionary of layers in QGIS
 layer_name_path = {"Tax_Parcels":"Open_Data_Recources/Atlanta_Tax_Parcels/Tax_Parcels.shp",
                    "Structure_Footprints": "Open_Data_Recources/Atlanta_Structure_Footprints/Structure_Footprints.shp"}  
        
-csv_output = r"C:/Users/sarni/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/Output_Files/output_results.csv"
+csv_output = r"C:/Users/xxxx/Desktop/Projects/PyQGIS_Projects/Newmark_Assignment/Output_Files/output_results.csv"
 
 #endregion GLOBAL VARIABLES --------
 
@@ -131,7 +131,7 @@ def geocode_address(address):
 
 # Example function for Google Geocoding API (if needed)
 def geocode_google(address):
-    api_key = "AIzaSyCO27K3CsCT84rj63xTucW7T6kk4bZ9HUE"
+    api_key = "xxxx"
     url = "https://maps.googleapis.com/maps/api/geocode/json"
     params = {'address': address, 'key': api_key}
     r = requests.get(url, params=params)
