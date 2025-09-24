@@ -7,10 +7,10 @@ In New York City, Building Identification Numbers (BIN) are used to uniquely ide
 
 **ASSUMPTIONS**
 
-• Parcel and building shapefiles or REST services are current and accurately aligned with Atlanta’s CRS (EPSG:2240).
-• Geocoding returns accurate coordinates for input addresses.
-• Parcels and buildings do not overlap ambiguously—each point corresponds to a single parcel.
-• Parcel IDs and Building IDs are stable over time.
+- Parcel and building shapefiles or REST services are current and accurately aligned with Atlanta’s CRS (EPSG:2240).
+- Geocoding returns accurate coordinates for input addresses.
+- Parcels and buildings do not overlap ambiguously—each point corresponds to a single parcel.
+- Parcel IDs and Building IDs are stable over time.
 
 
 **REFERENCES**
